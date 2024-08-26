@@ -14,9 +14,9 @@ class InformationModel{
 
     information.add(
       InformationModel(
-        M_name: 'Raihan Miraj', 
-        name: 'Miraj', 
-        room_no: '406'
+        M_name: 'Md. Masfiqun Ahmed', 
+        name: 'Masfiqun', 
+        room_no: '202'
       )
     );
 
