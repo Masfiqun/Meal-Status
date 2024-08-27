@@ -80,7 +80,7 @@ flutter:
   fonts:
     - family: Stormlight
       fonts:
-        - asset: assets/Fonts/Stormlight.ttf
+        - asset: assets/Fonts/OldLondon.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

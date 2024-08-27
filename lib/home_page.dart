@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_advanced_switch/flutter_advanced_switch.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:meal_status/Log_in.dart/log_in.dart';
 import 'package:meal_status/Parts/Info.dart';
 import 'package:meal_status/Parts/meals.dart';
 
@@ -154,7 +155,18 @@ class _HomepageState extends State<Homepage> {
                 setState(() {
                   _meals[index].boxIsSelected = !_meals[index].boxIsSelected;
                 });
+                Navigator.push(context, MaterialPageRoute(builder: (context) => Log_in()));
               },
+            //   return GestureDetector(
+            // onTap: () {
+            //   // Handle the tap event here
+            //   setState(() {
+            //     // Toggle the selection state of the meal
+            //     _meals[index].boxIsSelected = !_meals[index].boxIsSelected;
+            //   });
+            //   // You can also navigate to a new page or trigger any other action
+            //   // Example: Navigator.push(context, MaterialPageRoute(builder: (context) => SomeOtherPage()));
+            // },
               child: Container(
                 height: 100,
                 child: Row(
